@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Clipper",
+  "version": "0.1.0",
+  "description": "Açık sekmeleri tek tıkla 'sonra oku' listesine al.",
+  "permissions": ["tabs", "storage", "favicon"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Tab Clipper"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
