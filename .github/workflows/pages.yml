@@ -28,7 +28,6 @@ jobs:
           mkdir -p /tmp/_site
           cp panel.html /tmp/_site/index.html
           cp panel.js /tmp/_site/panel.js
-          cp -r static /tmp/_site/ 2>/dev/null || true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: /tmp/_site
